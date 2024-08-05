@@ -1027,8 +1027,7 @@ We can also overlay the protein expression to Visium spots</p>
 <span id="cb322-2"><a href="spatial-multi-modal-analysis.html#cb322-2" tabindex="-1"></a>transformed <span class="ot">&lt;-</span> <span class="fu">affine</span>(IF, mtx)</span>
 <span id="cb322-3"><a href="spatial-multi-modal-analysis.html#cb322-3" tabindex="-1"></a>To_see_overlay <span class="ot">&lt;-</span> transformed<span class="sc">@</span>funs<span class="sc">$</span><span class="fu">realize_magick</span>(<span class="at">size =</span> <span class="fl">2e6</span>)</span>
 <span id="cb322-4"><a href="spatial-multi-modal-analysis.html#cb322-4" tabindex="-1"></a><span class="fu">plot</span>(HE)</span>
-<span id="cb322-5"><a href="spatial-multi-modal-analysis.html#cb322-5" tabindex="-1"></a><span class="fu">plot</span>(To_see_overlay<span class="sc">@</span>raster_object[[<span class="dv">2</span>]], <span class="at">add=</span><span class="cn">TRUE</span>, <span class="at">alpha=</span><span class="fl">0.5</span>)</span>
-<span id="cb322-6"><a href="spatial-multi-modal-analysis.html#cb322-6" tabindex="-1"></a>SIFT_registration_overlay</span></code></pre></div>
+<span id="cb322-5"><a href="spatial-multi-modal-analysis.html#cb322-5" tabindex="-1"></a><span class="fu">plot</span>(To_see_overlay<span class="sc">@</span>raster_object[[<span class="dv">2</span>]], <span class="at">add=</span><span class="cn">TRUE</span>, <span class="at">alpha=</span><span class="fl">0.5</span>)</span></code></pre></div>
 <p><img src="img/03_session2/SIFT_registration_overlay.png" width="80%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="final-notes" class="section level3 hasAnchor" number="13.6.6">
